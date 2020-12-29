@@ -9,6 +9,18 @@ body {
     margin: 0;
     font-family: 'Gloria Hallelujah', cursive;
 }
+/* links */
+.links {
+    text-decoration: none;
+    color: black;
+    border: 1px solid var(--secondary-color);
+    border-radius: 1.5rem;
+    padding: 0.15rem;
+    
+}
+.links:visited {    
+    text-decoration: none;
+}
 
 /* header */
 .header {
@@ -23,26 +35,32 @@ body {
 
     text-align: center;
 }
-
+/* image-container */
+.img-container {
+    text-align: center;
+}
+img {
+    width: 15%;
+}
 /* input field */
 .inputField {
 
-    margin-top: 6rem;
+        
     width: 55%;
     height: 3rem;
 }
 /* button */
 .btn-translate {
-    margin-top: 3rem;
+    
     background-color: var(--primary-color);
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 1.5rem;
     border: 0.5rem solid var(--secondary-color);
 }
 
 /* output field */
 .outputDisplay {
-    margin-top: 5rem;
+    margin-top: 1rem;    
     border: 1px solid black;
     width: 55%;
     height: 2rem;
@@ -53,7 +71,7 @@ body {
 /* footer */
 .footer {
 
-    margin-top: 2rem;
+   
     text-align: center;
     background-color: var(--primary-color);
     
